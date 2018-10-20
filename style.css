@@ -1,0 +1,68 @@
+.background {
+	fill: none;
+	pointer-events: all;
+}
+
+.feature {
+	fill: Honeydew;
+	cursor: pointer;
+}
+
+.feature.active {
+	fill: PaleGreen;
+}
+
+.mesh {
+	fill: none;
+	stroke: #fff;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+}
+.states-names{
+	font-size: xx-small;
+	pointer-events: none;
+}
+.hidden {
+    display: none;
+}
+
+div.tooltip {
+	position: absolute;
+	text-align: center;
+	width: 90px;
+	height: 32px;
+	padding: 1px;
+	font-size: 12px;
+	color: white;
+	font-family: 'Droid Sans', sans-serif;
+	background: black;
+	border: 1px;
+	border-radius: 6px;
+	pointer-events: none;
+	opacity: 0.6;
+}
+
+.xaxis path,
+.xaxis line, 
+.yaxis path,
+.yaxis line {
+  	fill: none;
+	stroke: #989698;
+	stroke-width: 1;
+	shape-rendering: crispEdges;
+	opacity: 1;
+}
+.bars{
+	fill: MediumSeaGreen;
+}
+.bars:hover {
+	fill: orange;
+}
+.usMap{
+	float: left;
+	width:720px;
+	height:500px;
+}
+body{
+	background-color: AliceBlue;
+}
